@@ -20,5 +20,10 @@ public class AppTest {
 	public void returnBooleanTest() {
 		assertEquals(true, new App().returnBoolean());
 	}
+	
+	@Test
+	public void returnBooleanTestFail() {
+		assertEquals(false, new App().returnBoolean());
+	}
 
 }

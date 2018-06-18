@@ -8,7 +8,7 @@ public class AdvancedCalculatorTest {
 
 	@Test
 	public void multiplicationTest() {
-		assertEquals(3.0, new AdvancedCalculator().multiplication(1.0, 3.0));
+		assertEquals(5.0, new AdvancedCalculator().multiplication(1.0, 3.0));
 	}
 
 }

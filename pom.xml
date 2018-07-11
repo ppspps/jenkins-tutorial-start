@@ -14,7 +14,7 @@
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<jacoco.version>0.8.1</jacoco.version>
-		<jacoco.ut.execution.data.file>${project.build.directory}/coverage-reports/jacoco-ut.exec
+		<jacoco.ut.execution.data.file>target/coverage-reports/jacoco-ut.exec
 		</jacoco.ut.execution.data.file>
 	</properties>
 
